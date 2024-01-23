@@ -5,10 +5,21 @@ import Weather from "./Weather";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello World</h1>
-        <Weather city="Paris" />
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <h1>Weather Search Engine</h1>
+          <Weather defaultCity="Lisbon" />
+        </header>
+        <footer>
+          This project was coded by Catarina Santos and it's{" "}
+          <a
+            href="https://github.com/darkeubinniecodes/react-weather-app"
+            target="blank"
+          >
+            open-sourced on GitHub
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
