@@ -13,7 +13,7 @@ function App() {
         <footer>
           This project was coded by Catarina Santos and it's{" "}
           <a
-            href="https://github.com/darkeubinniecodes/react-weather-app"
+            href="https://github.com/darkeubinniecodes/react-weather"
             target="blank"
           >
             open-sourced on GitHub
